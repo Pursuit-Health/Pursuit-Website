@@ -103,6 +103,7 @@ function get_footer_1($atts){
   <ul class="list-unstyled text-center">
   <li><a href="/contact-us" class="text-white small">Contact</a></li>
   <li><a href="/pricing" class="text-white small">Pricing</a></li>
+  <li><a href="https://pursuittech.workable.com/" rel="noopener" target="_blank" class="text-white small">Careers</a></li>
   </ul>
   </div>
   <div class="mt-3 mt-md-0 col-md-3 text-center text-white">
