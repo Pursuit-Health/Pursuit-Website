@@ -38,6 +38,13 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 // Add to head needed scripts
 function child_theme_head_script() {
 	?>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
   <script>
   (function(d) {
 	var config = {
@@ -108,9 +115,9 @@ function get_footer_1($atts){
   </div>
   <div class="mt-3 mt-md-0 col-md-3 text-center text-white">
   <p>Stay in Touch</p>
-  <div class="row mb-2">
-  <div class="col-6"><a href="https://www.facebook.com/PursuitHealth/" target="_blank"><img src="/wp-content/uploads/2018/05/facebook-icon@2x.png" alt="" class="float-right d-block mx-auto img-fluid" width="32" height="32"></a></div>
-  <div class="col-6"><a href="#" target="_blank"><img src="/wp-content/uploads/2018/05/ig-icon@2x.png" alt="" class="float-left d-block mx-auto img-fluid" width="32" height="32"></a></div>
+  <div class="row justify-content-center mb-2">
+  <div class="col-5"><a href="https://www.facebook.com/PursuitHealth/" rel="noopener" target="_blank"><img src="'.get_stylesheet_directory_uri().'/images/facebook.svg" alt="follow us on facebook" class="float-right d-block mx-auto img-fluid" width="32" height="32"></a></div>
+  <div class="col-5"><a href="https://www.instagram.com/pursuithealth.io/" rel="noopener" target="_blank"><img src="'.get_stylesheet_directory_uri().'/images/instagram.svg" alt="follow us on instagram" class="float-left d-block mx-auto img-fluid" width="32" height="32"></a></div>
   </div>
   <div class="small">
   <a href="mailto:contact@pursuithealthtech.com" class="text-white">contact@pursuithealthtech.com</a><br>
