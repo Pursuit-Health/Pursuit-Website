@@ -71,6 +71,6 @@ input::placeholder,textarea::placeholder{
 }
 @media (min-width:1200px){
   .navbar-brand img{
-    width: 220px;
+    width: 300px;
   }
 }
