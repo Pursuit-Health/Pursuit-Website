@@ -74,3 +74,7 @@ input::placeholder,textarea::placeholder{
     width: 300px;
   }
 }
+
+form.request-demo label.frm_primary_label{
+  color: #fff !important;
+}

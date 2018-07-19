@@ -84,7 +84,7 @@ function get_header1(){
         <a class="nav-link text-white" href="/contact-us">Contact</a>
       </li>
       <li class="nav-item">
-        <a href="https://itunes.apple.com/us/app/pursuit-health/id1293916105?mt=8" class="btn btn-sm btn-outline-light my-2 my-sm-0">Download</a>
+        <a href="/request-a-demo" class="btn btn-sm btn-outline-light my-2 my-sm-0">Request A Demo</a>
       </li>
     </ul>
       
