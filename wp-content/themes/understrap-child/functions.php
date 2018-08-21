@@ -104,6 +104,7 @@ function get_footer_1($atts){
   <li><a href="/" class="text-white small">Home</a></li>
   <li><a href="/about" class="text-white small">About</a></li>
   <li><a href="#" class="text-white small">FAQ</a></li>
+  <li><a href="/terms-of-service" class="text-white small">Terms</a></li>
   </ul>
   </div>
   <div class="col-4 col-md-3">
@@ -111,6 +112,7 @@ function get_footer_1($atts){
   <li><a href="/contact-us" class="text-white small">Contact</a></li>
   <li><a href="/pricing" class="text-white small">Pricing</a></li>
   <li><a href="https://pursuittech.workable.com/" rel="noopener" target="_blank" class="text-white small">Careers</a></li>
+  <li><a href="/privacy-policy" class="text-white small">Privacy Policy</a></li>
   </ul>
   </div>
   <div class="mt-3 mt-md-0 col-md-3 text-center text-white">
