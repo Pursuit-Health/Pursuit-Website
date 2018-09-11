@@ -20,16 +20,18 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'pursuit');
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', '/home4/g2w2v2j8/pursuithealth.io/wp-content/plugins/wp-super-cache/' );
+define('DB_NAME', 'g2w2v2j8_pursuit');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'g2w2v2j8_reader');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'N.qdbS&_(W1}Qt,wNt');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:8889');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

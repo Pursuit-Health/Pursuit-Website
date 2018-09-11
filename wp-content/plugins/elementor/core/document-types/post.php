@@ -7,6 +7,7 @@ use Elementor\Group_Control_Background;
 use Elementor\Plugin;
 use Elementor\Settings;
 use Elementor\Core\Settings\Manager as SettingsManager;
+use Elementor\Utils;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -20,6 +21,19 @@ class Post extends Document {
 		$properties['support_wp_page_templates'] = true;
 
 		return $properties;
+	}
+
+	protected static function get_editor_panel_categories() {
+		return Utils::array_inject(
+			parent::get_editor_panel_categories(),
+			'theme-elements',
+			[
+				'theme-elements-single' => [
+					'title' => __( 'Single', 'elementor' ),
+					'active' => false,
+				],
+			]
+		);
 	}
 
 	/**
@@ -74,6 +88,8 @@ class Post extends Document {
 			$page_title_selector = 'h1.entry-title';
 		}
 
+		$page_title_selector .= ', .elementor-page-title';
+
 		$document->start_injection( [
 			'of' => 'post_status',
 			'fallback' => [
@@ -86,8 +102,6 @@ class Post extends Document {
 			[
 				'label' => __( 'Hide Title', 'elementor' ),
 				'type' => Controls_Manager::SWITCHER,
-				'label_off' => __( 'No', 'elementor' ),
-				'label_on' => __( 'Yes', 'elementor' ),
 				'description' => sprintf(
 					/* translators: %s: Setting page link */
 					__( 'Not working? You can set a different selector for the title in the <a href="%s" target="_blank">Settings page</a>.', 'elementor' ),
