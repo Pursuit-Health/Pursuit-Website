@@ -1,11 +1,11 @@
 === Blog Designer ===
 Contributors: solwininfotech, sanjaydabhoya, khushbupadalia
 Donate link: https://www.solwininfotech.com/product/wordpress-plugins/blog-designer/
-Tags: responsive blog, responsive blog layout, blog template, custom blog template, blog layout design, custom blog layout, modify blog design, blog, design, site design, posts in page, blog in page, timeline blog template, classical blog template, light breeze blog template, spektrum blog template, evolution blog template
+Tags: Wordpress Blog, Blog Design, Blog layout, blog template, custom blog template, blog layout design, responsive blog, custom blog layout, modify blog design, responsive blog layout, blog, design, site design, posts in page, blog in page, timeline blog template, classical blog template, light breeze blog template, spektrum blog template, evolution blog template
 Requires at least: 4.0
-Tested up to: 4.9.7
+Tested up to: 4.9.8
 Requires PHP: 5.6
-Stable tag: 1.8.9.2
+Stable tag: 1.8.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,9 +47,6 @@ You can show your new blog page design with any page via below shortcode.
 > * Custom CSS support
 > * Square/Circle social share buttons
 > * Translation Ready (.pot file attached)
-
-**Celebrating 2nd anniversary of Blog Designer PRO with 3,200+ Customers**
-**We are giving flat $10 discount. Get Blog Designer PRO plugin in just $30 instead of $40**
 
 ### Blog Designer Pro Features:
 Pro version overcome your limitations with lite version of blog designer.
@@ -203,6 +200,11 @@ Yes, Blog Designer will work with any WordPress themes, but may require some sty
 
 
 == Changelog ==
+
+= 1.8.9.3 =
+Release date: August 16th, 2018
+
+* Updated: Make compatible with WordPress 4.9.8
 
 = 1.8.9.2 =
 Release date: July 26th, 2018

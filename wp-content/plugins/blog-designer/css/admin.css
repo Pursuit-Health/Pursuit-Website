@@ -2719,7 +2719,7 @@ h3.no-template {
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
     .bd-template-popupdiv .bd-template-thumbnail {
         width: calc(100% - 30px);
     }

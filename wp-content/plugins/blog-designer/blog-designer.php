@@ -3,11 +3,11 @@
   Plugin Name: Blog Designer
   Plugin URI: https://wordpress.org/plugins/blog-designer/
   Description: To make your blog design more pretty, attractive and colorful.
-  Version: 1.8.9.2
+  Version: 1.8.9.3
   Author: Solwin Infotech
   Author URI: https://www.solwininfotech.com/
   Requires at least: 4.0
-  Tested up to: 4.9.7
+  Tested up to: 4.9.8
 
   Text Domain: blog-designer
   Domain Path: /languages/
@@ -2194,7 +2194,7 @@ if (!function_exists('wp_blog_designer_menu_function')) {
                                 <li>
                                     <h3 class="bd-table-title"><?php _e('Select Blog Layout', 'blog-designer'); ?></h3>
                                     <div class="bd-left">
-                                        <p class="bd-margin-bottom-50"><?php _e('Select your favorite layout from 6 free layouts.', 'blog-designer'); ?> <b><?php _e('Upgrade for just $30 to access 40+ brand new layouts and other premium features.', 'blog-designer');?></b></p>
+                                        <p class="bd-margin-bottom-50"><?php _e('Select your favorite layout from 6 free layouts.', 'blog-designer'); ?> <b><?php _e('Upgrade for just $40 to access 40+ brand new layouts and other premium features.', 'blog-designer');?></b></p>
                                         <p class="bd-margin-bottom-30"><b><?php _e('Current Template:', 'blog-designer'); ?></b> &nbsp;&nbsp;
                                             <span class="bd-template-name">
                                             <?php
