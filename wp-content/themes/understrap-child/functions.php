@@ -75,16 +75,10 @@ function get_header1(){
         <a class="nav-link text-white" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="/pricing">Pricing</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link text-white" href="/about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="/contact-us">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a href="/request-a-demo" class="btn btn-sm btn-outline-light my-2 my-sm-0">Request A Demo</a>
       </li>
     </ul>
       
@@ -110,7 +104,6 @@ function get_footer_1($atts){
   <div class="col-4 col-md-3">
   <ul class="list-unstyled text-center">
   <li><a href="/contact-us" class="text-white small">Contact</a></li>
-  <li><a href="/pricing" class="text-white small">Pricing</a></li>
   <li><a href="https://pursuittech.workable.com/" rel="noopener" target="_blank" class="text-white small">Careers</a></li>
   <li><a href="/privacy-policy" class="text-white small">Privacy Policy</a></li>
   </ul>
